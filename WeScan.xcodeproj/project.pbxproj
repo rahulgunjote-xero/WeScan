@@ -22,6 +22,7 @@
 		74F7D03A211ACC4B0046AF7E /* UIImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D039211ACC4B0046AF7E /* UIImageTests.swift */; };
 		74F7D03C211ACC6B0046AF7E /* CGAffineTransformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D03B211ACC6B0046AF7E /* CGAffineTransformTests.swift */; };
 		74F7D03E211ACC890046AF7E /* AVCaptureVideoOrientationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F7D03D211ACC890046AF7E /* AVCaptureVideoOrientationTests.swift */; };
+		7524E2B5293623FF00E121FA /* UIImage+Quad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7524E2B4293623FE00E121FA /* UIImage+Quad.swift */; };
 		8A1BB199249C9B45000278F2 /* UIImage+SFSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1BB198249C9B45000278F2 /* UIImage+SFSymbol.swift */; };
 		A11C5B9C2046A20C005075FE /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C5B9B2046A20C005075FE /* Error.swift */; };
 		A11C5CD920495EA1005075FE /* RectangleFeaturesFunnelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A11C5CD820495EA1005075FE /* RectangleFeaturesFunnelTests.swift */; };
@@ -222,6 +223,7 @@
 		74F7D039211ACC4B0046AF7E /* UIImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageTests.swift; sourceTree = "<group>"; };
 		74F7D03B211ACC6B0046AF7E /* CGAffineTransformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGAffineTransformTests.swift; sourceTree = "<group>"; };
 		74F7D03D211ACC890046AF7E /* AVCaptureVideoOrientationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVCaptureVideoOrientationTests.swift; sourceTree = "<group>"; };
+		7524E2B4293623FE00E121FA /* UIImage+Quad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Quad.swift"; sourceTree = "<group>"; };
 		8A1BB198249C9B45000278F2 /* UIImage+SFSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+SFSymbol.swift"; sourceTree = "<group>"; };
 		A11C5B9B2046A20C005075FE /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		A11C5CD820495EA1005075FE /* RectangleFeaturesFunnelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RectangleFeaturesFunnelTests.swift; sourceTree = "<group>"; };
@@ -472,6 +474,7 @@
 		A1D4BD11202C6C7900FCDDEC /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				7524E2B4293623FE00E121FA /* UIImage+Quad.swift */,
 				A1D4BD14202C6CC000FCDDEC /* Array+Utils.swift */,
 				A11C5CDA20495EC9005075FE /* AVCaptureVideoOrientation+Utils.swift */,
 				A1F22EA4202DB3AA001723AD /* CGPoint+Utils.swift */,
@@ -904,6 +907,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7524E2B5293623FF00E121FA /* UIImage+Quad.swift in Sources */,
 				A11C5CDB20495EC9005075FE /* AVCaptureVideoOrientation+Utils.swift in Sources */,
 				A1DF90F22035992A00841A11 /* CGAffineTransform+Utils.swift in Sources */,
 				A1F22EA3202DAA74001723AD /* RectangleFeaturesFunnel.swift in Sources */,
